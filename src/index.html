@@ -14,58 +14,167 @@
         <link rel="stylesheet" href="css/main.css">
         <script src="js/header.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            /*(function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='https://www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X','auto');ga('send','pageview');*/
-        </script>
+        
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <script 
+        src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity=""
+        crossorigin=""></script>
 
-        <div class="canvas-bg js-canvas-bg"></div>
-
-        <div class="img-slide2 img--1"></div>
-
-        <div class="o-main-layout home-wrap">
-            <div class="o-row">
-                <div class="o-col">
-                    <a href="home.html">
-                        <div class="inner-container">
-                            <div class="logo"><img src="img/pvrk-logo.png"></div>
-                            <div class="home-center-txt">
-                                <h1>
-                                    Book Your Tickets Here
-                                    <span>Tap Anywhere to Begin</span>
-                                    <div class="loader-wrap click-img">
-                                        <div class="loader"></div>
-                                        <img class="" src="img/click-icn.png">
-                                    </div>
-                                </h1>
-                            </div>
-                            <div class="change-realtity">
-                                <h3>Challenge Reality</h3>
-                            </div>
-                            <div class="sponsor-logo">
-                                <img src="img/sponsor-logo.png">
-                                <img src="img/sponsor-logo.png">
-                                <img src="img/sponsor-logo.png">
-                                <img src="img/sponsor-logo.png">
-                            </div>
+        <section class="container">
+            
+            <header class="header-wrap clearfix">
+                <ul class="right-links">
+                    <li><a href="#" class="login-lnk line-center"><img src="img/login-icn.svg" alt=""> Login</a></li>
+                    <li class="valume-icn"><img src="img/volume-icn.svg" alt=""></li>
+                    <li>
+                        <div class="hamburger">
+                            <div class="top-bun"></div>
+                            <div class="meat"></div>
+                            <div class="bottom-bun"></div>
                         </div>
-                    </a>
+                    </li>
+                </ul>
+                <div class="vr-logo">
+                    <a href="index.html"><img src="img/pvrk-logo.png" alt=""></a>
+                </div>
+
+            </header>
+
+            <div id="fullpage">
+
+                <div class="section " id="section0">
+                    <div class="inner-container">
+                        
+                        <div class="mouse-icn" id="mouse-icn"><a href="#section1"><span class="bounce-line"></span></a></div>
+
+                    </div>
+                </div>
+                <div class="section" id="section1">
+                    <div class="inner-container2 contentSec dis-table">
+                        <div class="cell">
+                            <h1>About VR Park</h1>
+                            <div class="number">
+                                <div class="loader-wrap">
+                                    <span class="txtBox">02</span>
+                                    <div class="loader"></div>
+                                </div>
+                            </div>
+                            <div class="dec-text">
+                                <p>Turn your world upside down and lose yourself in a fully immersive VR experience. Alongside friends and family, you can share in an unparalleled, hyper realism. This is a park you can go to play where all sense of time and place disappears. Escape the day-to-day and becaptivated by the extraordinary worlds you have entered. </p>
+                            </div>  
+
+                            <a href="" class="link-text line-center">BUY CREDITS</a>    
+                        </div>                  
+                    </div>
+                </div>
+
+                <div class="section moveDown" id="section2">
+                    <div class="inner-container2 contentSec dis-table">
+                        <div class="cell">
+                            <h1>Packages</h1>
+                            <div class="number">
+                                <div class="loader-wrap">
+                                    <span class="txtBox">03</span>
+                                    <div class="loader"></div>
+                                </div>
+                            </div>
+                            <div class="dec-text">
+                                <p>Choose from one of our packages to best suit your alternative realities and get 20% discount. Will it be action and adrenaline? Or discovery and dreams?</p>
+                            </div>  
+
+                            <div class="package-sec">
+                                <div class="adultSec col-box">
+                                    <h2>Adult Fun</h2>
+                                    <p>AED 120 <span>Save 20%</span></p>
+
+                                    <ul class="inner-list">
+                                        <li>
+                                            <div class="inner-wrap img-walking-dead">
+                                                <div class="inner-title">The Walking Dead</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="inner-wrap img-dubai-drone">
+                                                <div class="inner-title">Dubai Drone</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="inner-wrap wrap--credits">
+                                                <div class="inner-text">
+                                                    <div class="credit js-pack-credit">30</div>
+                                                    <div class="txt">Credits</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="familySec col-box">
+                                    <h2>Family Fun</h2>
+                                    <p>AED 120 <span>Save 20%</span></p>
+
+                                    <ul class="inner-list">
+                                        <li>
+                                            <div class="inner-wrap img-ringwalker">
+                                                <div class="inner-title">Ringwalker</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="inner-wrap img-dune-bash">
+                                                <div class="inner-title">Dubai Dune Bash</div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="inner-wrap wrap--credits">
+                                                <div class="inner-text">
+                                                    <div class="credit js-pack-credit">30</div>
+                                                    <div class="txt">Credits</div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <br clear="all">
+                            <a href="" class="link-text line-center">BUY CREDITS</a>    
+                        </div>                  
+                    </div>
+                </div>
+                <div class="section moveDown" id="section3">
+                    <div class="inner-container2 contentSec dis-table">
+                        <div class="cell">
+                            <h1>Experiences</h1>
+                            <div class="number">
+                                <div class="loader-wrap">
+                                    <span class="txtBox">04</span>
+                                    <div class="loader"></div>
+                                </div>
+                            </div>   
+                        </div>                  
+                    </div>
                 </div>
             </div>
-  
-        </div>
 
-        <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+        </section>
+
+        <div class="c-main-overlay"></div>
+        <div class="screen-overlay right"></div>
+        <div class="screen-overlay left"></div>
+        <div class="screen-overlay mid"></div>
+        <div class="wrap">
+        <div class="player-wrap">
+            <div id="player"></div>
+        </div>
+        </div>
+        
+
+        
+        
+        <!-- <script src="js/scripts/jquery.fullPage.js"></script> -->
         <script src="js/scripts.js"></script>
     </body>
 </html>

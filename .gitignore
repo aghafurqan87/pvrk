@@ -1,4 +1,5 @@
 node_modules/
+src/video
 src/js/scripts.js
 src/js/scripts.min.js
 .nsdeploy
