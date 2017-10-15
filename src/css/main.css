@@ -4121,4 +4121,108 @@ h1 {
       font-size: 40px;
       line-height: 50px; } }
 
+.footer-wrap {
+  padding: 50px 0px;
+  background-color: #274a5d;
+  position: relative;
+  z-index: 999; }
+  .footer-wrap h3 {
+    font-size: 26px;
+    font-style: italic;
+    margin: 0px 0px 20px 0px; }
+  .footer-wrap .signup-form {
+    width: 60%;
+    float: left; }
+    .footer-wrap .signup-form .field-wrap {
+      float: left;
+      width: 49%;
+      position: relative;
+      margin-bottom: 40px; }
+      .footer-wrap .signup-form .field-wrap:before {
+        content: '';
+        position: absolute;
+        width: calc(100% - 10px);
+        bottom: 0px;
+        height: 2px;
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.5+0,0.1+100 */
+        background: -moz-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+        /* FF3.6-15 */
+        background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+        /* Chrome10-25,Safari5.1-6 */
+        background: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.1) 100%);
+        /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#1affffff',GradientType=1 );
+        /* IE6-9 */ }
+      .footer-wrap .signup-form .field-wrap.name-field {
+        padding-right: 10px; }
+        .footer-wrap .signup-form .field-wrap.name-field:before {
+          right: 10px; }
+      .footer-wrap .signup-form .field-wrap.email-field {
+        padding-left: 10px; }
+        .footer-wrap .signup-form .field-wrap.email-field:before {
+          left: 10px; }
+    .footer-wrap .signup-form input[type=text],
+    .footer-wrap .signup-form input[type=email] {
+      background-color: transparent;
+      border: 0px;
+      outline: none;
+      font-size: 14px;
+      color: #fff;
+      padding: 10px 0px; }
+    .footer-wrap .signup-form .signUp-btn {
+      font-style: italic;
+      font-size: 14px;
+      width: 100px;
+      display: block;
+      text-align: center;
+      background-color: transparent;
+      outline: none;
+      border: 0px; }
+  .footer-wrap .footer-links {
+    margin-top: 40px; }
+    .footer-wrap .footer-links span {
+      color: #fff;
+      font-size: 11px;
+      display: inline-block;
+      margin-right: 20px;
+      vertical-align: top;
+      letter-spacing: 0.06em;
+      margin-top: 3px; }
+    .footer-wrap .footer-links ul {
+      display: inline-block; }
+      .footer-wrap .footer-links ul li {
+        display: inline-block;
+        border-left: 1px solid #516f7d;
+        font-size: 11px;
+        line-height: 11px;
+        padding-left: 12px;
+        margin-left: 12px; }
+        .footer-wrap .footer-links ul li a {
+          color: #516f7d;
+          line-height: 11px; }
+        .footer-wrap .footer-links ul li:first-child {
+          border: none;
+          padding-left: 0px;
+          margin-left: 0px; }
+  .footer-wrap .social-box {
+    width: 35%;
+    float: right; }
+    .footer-wrap .social-box ul li {
+      float: left;
+      margin-right: 20px;
+      width: 75px;
+      height: 75px;
+      text-align: center;
+      line-height: 75px;
+      margin-bottom: 10px; }
+      .footer-wrap .social-box ul li a {
+        display: block;
+        color: #516f7d; }
+        .footer-wrap .social-box ul li a:hover {
+          color: #fff; }
+      .footer-wrap .social-box ul li i {
+        font-size: 28px; }
+      .footer-wrap .social-box ul li:last-child {
+        margin-right: 0px; }
+
 /*# sourceMappingURL=main.css.map */
